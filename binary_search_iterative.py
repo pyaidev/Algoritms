@@ -8,9 +8,7 @@ Misol uchun:
 
 
 def binary_search_iterative(arr: list[int], target: int) -> bool:
-    """
-    Kodni bu yerda yozing.
-    """
+
     left, right = 0, len(arr)-1
     while left <= right:
         mid = (left+right) // 2
